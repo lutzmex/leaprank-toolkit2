@@ -75,15 +75,15 @@ class LRST_Core {
                 update_option('lrst_toc_min_headings', '3');
             }
 
-            // Utility Defaults
+            // Utility Defaults - Both Server Remove by default for clean HTML source
             if (false === get_option('lrst_hide_partners') || '' === get_option('lrst_hide_partners')) {
                 update_option('lrst_hide_partners', '1'); 
-                update_option('lrst_partners_mode', 'css');
+                update_option('lrst_partners_mode', 'server'); // Server remove
             }
             
             if (false === get_option('lrst_hide_sidebar') || '' === get_option('lrst_hide_sidebar')) {
                 update_option('lrst_hide_sidebar', '1'); 
-                update_option('lrst_sidebar_mode', 'server');
+                update_option('lrst_sidebar_mode', 'server'); // Server remove
             }
 
             if (false === get_option('lrst_highlight_links')) {
