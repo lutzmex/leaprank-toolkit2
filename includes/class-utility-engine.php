@@ -271,38 +271,7 @@ class LRST_Utility_Engine {
                 }
                 <?php endif; ?>
             </style>
-            <script>
-            // Add external link attributes for better UX
-            (function() {
-                'use strict';
-                if (typeof document === 'undefined') return;
-                
-                document.addEventListener('DOMContentLoaded', function() {
-                    <?php if ($highlight_links): ?>
-                    try {
-                        const domain = '<?php echo esc_js($site_domain); ?>';
-                        const contentSelectors = ['.entry-content', '.post-content', 'article'];
-                        
-                        contentSelectors.forEach(function(selector) {
-                            const contentArea = document.querySelector(selector);
-                            if (!contentArea) return;
-                            
-                            const links = contentArea.querySelectorAll('a');
-                            links.forEach(function(link) {
-                                const href = link.getAttribute('href');
-                                if (href && href.includes('//') && !href.includes(domain) && !href.startsWith('#')) {
-                                    link.setAttribute('target', '_blank');
-                                    link.setAttribute('rel', 'nofollow noopener');
-                                }
-                            });
-                        });
-                    } catch(e) {
-                        // Silently skip on error
-                    }
-                    <?php endif; ?>
-                });
-            })();
-            </script>
+            <!-- External link highlighting uses CSS only (no JS attribute modification) -->
             <?php
         } catch (Exception $e) {
             // Prevent any output on error
