@@ -81,7 +81,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-final-header{position:fixed;top:8px;left:50%;transform:translateX(-50%);z-index:999999;width:calc(100% - 16px);max-width:1600px;transition:all 0.3s ease,transform 0.3s ease}
             #phm-final-header.scrolled{top:4px;box-shadow:0 6px 24px rgba(15,23,42,0.1)}
             .phm-final-glass{background:rgba(255,255,255,0.88);backdrop-filter:blur(20px) saturate(180%);-webkit-backdrop-filter:blur(20px) saturate(180%);border:1px solid rgba(226,232,240,0.8);border-radius:14px;padding:6px 16px;display:flex;align-items:center;justify-content:space-between;gap:20px;box-shadow:0 2px 16px rgba(15,23,42,0.06), 0 0 0 1px rgba(255,255,255,0.9) inset}
@@ -111,7 +115,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-compact-header{position:fixed;top:10px;left:50%;transform:translateX(-50%);z-index:999999;width:calc(100% - 20px);max-width:1400px}
             .phm-compact-glass{background:rgba(255,255,255,0.9);backdrop-filter:blur(16px);border:1px solid rgba(226,232,240,0.8);border-radius:16px;padding:8px 24px;display:flex;align-items:center;justify-content:center;gap:24px;box-shadow:0 4px 16px rgba(0,0,0,0.06)}
             .phm-compact-logo-link{padding:6px;border-radius:50%;border:2px solid rgba(59,130,246,0.15);transition:all 0.3s}
@@ -139,7 +147,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-minimal-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:white;border-bottom:1px solid #e5e7eb}
             .phm-minimal-container{max-width:1400px;margin:0 auto;padding:12px 40px;display:flex;align-items:center;justify-content:space-between}
             .phm-minimal-logo{height:48px;max-width:200px;object-fit:contain}
@@ -165,7 +177,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-gradient-header{position:fixed;top:10px;left:50%;transform:translateX(-50%);z-index:999999;width:calc(100% - 20px);max-width:1500px}
             .phm-gradient-glass{background:linear-gradient(135deg,rgba(99,102,241,0.1),rgba(168,85,247,0.1));backdrop-filter:blur(20px);border:1px solid rgba(255,255,255,0.3);border-radius:20px;padding:10px 28px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 8px 32px rgba(0,0,0,0.08)}
             .phm-gradient-logo-link{padding:8px;border-radius:50%;background:white;box-shadow:0 4px 12px rgba(99,102,241,0.15);transition:all 0.3s}
@@ -190,7 +206,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-corporate-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:white;border-bottom:2px solid #e5e7eb;box-shadow:0 2px 8px rgba(0,0,0,0.04)}
             .phm-corporate-container{max-width:1400px;margin:0 auto;padding:16px 40px;display:flex;align-items:center;justify-content:space-between}
             .phm-corporate-logo-link{padding:8px;border:2px solid #e5e7eb;border-radius:8px;transition:border-color 0.2s}
@@ -217,7 +237,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-tech-pill-header{position:fixed;top:15px;left:50%;transform:translateX(-50%);z-index:999999;width:auto;max-width:90%;}
             .phm-tech-pill-glass{background:#1e293b;border-radius:50px;padding:8px 30px;display:flex;align-items:center;gap:30px;box-shadow:0 10px 25px rgba(0,0,0,0.2);border:1px solid rgba(255,255,255,0.1)}
             .phm-tech-pill-logo{height:32px;filter:brightness(0) invert(1);}
@@ -240,7 +264,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-startup-split-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:white;border-bottom:1px solid #f3e8ff}
             .phm-startup-split-container{max-width:1400px;margin:0 auto;padding:15px 40px;display:flex;align-items:center;justify-content:space-between}
             .phm-startup-split-logo{height:44px;}
@@ -263,7 +291,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-news-dense-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:#f8fafc;border-bottom:1px solid #e2e8f0}
             .phm-news-dense-container{max-width:1600px;margin:0 auto;padding:8px 30px;display:flex;align-items:center;gap:30px}
             .phm-news-dense-logo{height:36px;}
@@ -286,7 +318,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-creative-agency-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:black;color:white;}
             .phm-creative-agency-container{max-width:1400px;margin:0 auto;padding:20px 40px;display:flex;align-items:center;justify-content:space-between}
             .phm-creative-agency-logo{height:40px;filter:invert(1);}
@@ -309,7 +345,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-ecommerce-shop-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:white;border-bottom:1px solid #f1f5f9;box-shadow:0 2px 10px rgba(0,0,0,0.03)}
             .phm-ecommerce-shop-container{max-width:1400px;margin:0 auto;padding:15px 30px;display:grid;grid-template-columns:1fr auto 1fr;align-items:center}
             .phm-ecommerce-shop-logo{height:48px;margin:0 auto;}
@@ -333,7 +373,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-saas-dashboard-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:#f8fafc;border-bottom:1px solid #cbd5e1;height:64px;display:flex;align-items:center;padding:0 24px}
             .phm-saas-dashboard-container{width:100%;max-width:1600px;margin:0 auto;display:flex;align-items:center;justify-content:space-between}
             .phm-saas-dashboard-logo{height:32px}
@@ -356,7 +400,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-startup-bold-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:linear-gradient(90deg, #ec4899, #8b5cf6, #3b82f6);color:white}
             .phm-startup-bold-container{max-width:1400px;margin:0 auto;padding:15px 40px;display:flex;align-items:center;justify-content:space-between}
             .phm-startup-bold-logo{height:40px;filter:brightness(0) invert(1)}
@@ -379,7 +427,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-minimal-sticky-header{position:sticky;top:0;z-index:999999;background:white;box-shadow:0 1px 0 #f1f5f9;transition:0.3s}
             #phm-minimal-sticky-header.scrolled{box-shadow:0 4px 12px rgba(0,0,0,0.05)}
             .phm-minimal-sticky-container{max-width:1400px;margin:0 auto;padding:12px 30px;display:flex;align-items:center;justify-content:space-between}
@@ -404,7 +456,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-enterprise-blue-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:#1e40af;border-bottom:4px solid #1e3a8a}
             .phm-enterprise-blue-container{max-width:1400px;margin:0 auto;padding:0 40px;display:flex;align-items:center;height:70px;justify-content:space-between}
             .phm-enterprise-blue-logo{height:40px;filter:brightness(0) invert(1)}
@@ -427,7 +483,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-finance-trust-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:white;border-top:4px solid #059669;box-shadow:0 4px 6px -1px rgba(0,0,0,0.05)}
             .phm-finance-trust-container{max-width:1400px;margin:0 auto;padding:15px 40px;display:flex;align-items:center;justify-content:space-between}
             .phm-finance-trust-logo{height:42px}
@@ -450,7 +510,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-creative-split-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:white;border-bottom:2px solid black}
             .phm-creative-split-container{max-width:100%;margin:0;padding:0;display:flex;height:80px}
             .phm-creative-split-logo-link{background:black;display:flex;align-items:center;justify-content:center;padding:0 40px;height:100%}
@@ -474,7 +538,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-app-store-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:rgba(245,245,247,0.8);backdrop-filter:blur(20px);border-bottom:1px solid rgba(0,0,0,0.1)}
             .phm-app-store-container{max-width:1200px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
             .phm-app-store-logo{height:36px;border-radius:8px}
@@ -497,7 +565,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-developer-docs-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:#0d1117;border-bottom:1px solid #30363d}
             .phm-developer-docs-container{max-width:1600px;margin:0 auto;padding:16px 32px;display:flex;align-items:center;justify-content:space-between}
             .phm-developer-docs-logo{height:32px;filter:invert(1)}
@@ -520,7 +592,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-health-clean-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:white;border-bottom:1px solid #e5e7eb}
             .phm-health-clean-container{max-width:1200px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
             .phm-health-clean-logo{height:44px}
@@ -543,7 +619,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-lifestyle-mag-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:white;border-bottom:1px solid black}
             .phm-lifestyle-mag-container{max-width:1400px;margin:0 auto;padding:20px 40px;display:flex;flex-direction:column;align-items:center;gap:15px}
             .phm-lifestyle-mag-logo{height:50px}
@@ -567,7 +647,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-tech-news-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:#0f172a;color:white}
             .phm-tech-news-container{max-width:1600px;margin:0 auto;padding:0 20px;display:flex;align-items:center;height:60px;justify-content:space-between}
             .phm-tech-news-logo{height:28px;filter:invert(1)}
@@ -590,7 +674,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-education-lms-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:#fff7ed;border-bottom:1px solid #fed7aa}
             .phm-education-lms-container{max-width:1200px;margin:0 auto;padding:15px 30px;display:flex;align-items:center;justify-content:space-between}
             .phm-education-lms-logo{height:40px}
@@ -613,7 +701,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-real-estate-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:#27272a;color:#fafafa}
             .phm-real-estate-container{max-width:1400px;margin:0 auto;padding:20px 40px;display:flex;align-items:center;justify-content:space-between}
             .phm-real-estate-logo{height:40px;filter:brightness(0) invert(1)}
@@ -636,7 +728,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-travel-hero-header{position:absolute;top:0;left:0;right:0;z-index:999999;background:linear-gradient(to bottom, rgba(0,0,0,0.6), transparent);padding-bottom:40px}
             #phm-travel-hero-header.scrolled{position:fixed;background:white;box-shadow:0 2px 10px rgba(0,0,0,0.1);padding-bottom:0}
             .phm-travel-hero-container{max-width:1400px;margin:0 auto;padding:20px 40px;display:flex;align-items:center;justify-content:space-between}
@@ -663,7 +759,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-gaming-neon-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:#050505;border-bottom:2px solid #22c55e}
             .phm-gaming-neon-container{max-width:1600px;margin:0 auto;padding:15px 30px;display:flex;align-items:center;justify-content:space-between}
             .phm-gaming-neon-logo{height:40px}
@@ -686,7 +786,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-nonprofit-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:white;box-shadow:0 2px 15px rgba(0,0,0,0.05)}
             .phm-nonprofit-container{max-width:1200px;margin:0 auto;padding:15px 20px;display:flex;align-items:center;justify-content:space-between}
             .phm-nonprofit-logo{height:48px}
@@ -709,7 +813,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-restaurant-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:#fff;border-bottom:1px solid #fb923c}
             .phm-restaurant-container{max-width:1200px;margin:0 auto;padding:15px 30px;display:flex;align-items:center;justify-content:center;flex-direction:column}
             .phm-restaurant-logo{height:50px;margin-bottom:10px}
@@ -732,7 +840,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-fitness-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:white;transform:skewY(-1deg);transform-origin:top left;border-bottom:4px solid #ef4444;top:-10px;padding-top:10px}
             .phm-fitness-container{max-width:1400px;margin:0 auto;padding:10px 40px;display:flex;align-items:center;justify-content:space-between;transform:skewY(1deg)}
             .phm-fitness-logo{height:44px}
@@ -755,7 +867,11 @@ class LRST_Header_Engine {
         add_action('wp_head', function() {
             ?>
             <style>
-            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header{display:none!important}
+            /* Hide ALL theme headers - Comprehensive */
+            .mid-header-wrapper,.site-header,#masthead,nav.navigation,.main-navigation,header.header,
+            #header,.header-wrapper,.site-logo-wrapper,.bottom-header-wrapper,#sticky-wrapper,
+            #top-navigation,.top-bar-navigation,#site-navigation,.header-inner,.site-header-inner,
+            .header-top,.header-bottom,.sticky-header,header[role="banner"]{display:none!important}
             #phm-consulting-header{position:fixed;top:0;left:0;right:0;z-index:999999;background:#172554;color:white}
             .phm-consulting-container{max-width:1200px;margin:0 auto;padding:0 30px;display:flex;align-items:center;justify-content:space-between;height:80px}
             .phm-consulting-logo{height:40px;filter:brightness(0) invert(1)}
